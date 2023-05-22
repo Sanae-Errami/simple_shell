@@ -2,15 +2,21 @@
 
 /**
  * main - calculate the sum of two numbers
- * @a: the first number
- * @b: the second number
- * Return: the sum
+ * 
+ * Return: Always 0 (Success)
  */
-int main(int a, int b)
+int main(void)
 {
-	int c;
+	int a, b, c;
 
-	c = a + b;
+	printf("please enter a number: ");
+scanf("%d", &a);
 
-	return (c);
+printf("please enter another number: ");
+scanf("%d", &b);
+
+c = a + b;
+printf("%d\n", c);
+
+	return (0);
 }
