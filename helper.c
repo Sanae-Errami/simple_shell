@@ -32,11 +32,11 @@ char **tokenizer(char *input_string, char *delim)
 }
 
 /**
- *print - prints a string to stdout
- *@string: string to be printed
- *@stream: stream to print out to
+ *print - print a strings to stdout
+ *@string: string to be printed 
+ *@stream: stream to be print out to
  *
- *Return: void, return nothing
+ *Return: void,( return nothing )
  */
 void print(char *string, int stream)
 {
@@ -51,7 +51,7 @@ void print(char *string, int stream)
  *@str: string to be used
  *
  *
- *Return: void
+ *Return: void, return nothing
  */
 
 void remove_newline(char *str)
