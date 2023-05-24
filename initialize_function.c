@@ -2,7 +2,7 @@
 
 /**
  * initializer - starts executing everything
- * @current_command: try to check current token
+ * @current_command:to try and to check current token
  * @type_command: parse token
  *
  * Return: void function
